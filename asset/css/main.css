@@ -40,9 +40,9 @@ section.mb_team_wr {}
 
 .layer_content {position: relative; padding: 30px;}
 .layer_content .btn_wr {display: flex; justify-content: right; margin: 30px 0 0;}
-.layer_content .btn_wr li a {margin-left: 15px; padding: 15px 25px; border-radius: 8px}
+.layer_content .btn_wr li a {display: block;margin-left: 15px;padding: 15px 25px;border-radius: 8px}
 .layer_content .close_btn {background-color: #dbdbdb;}
-.layer_content .upload_btn {background-color: #111;}
+.layer_content .upload_btn {margin: 0 0 0 10px;padding: 15px 25px;color: #fff;background-color: #111;border-radius: 8px;}
 
 .comment_wr {display: block; height: 325px; overflow: scroll;}
 .comment_wr>li {margin-bottom: 15px; padding: 20px 15px;}
